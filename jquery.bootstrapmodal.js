@@ -4,7 +4,9 @@
 		message: '',
 		primaryButtonText: '',
 		primaryButtonClick: null,
-		disableFooter: false		
+		disableFooter: false,
+		keyboard: true,
+		backdrop: 'static'
 	};
 	
 	var options;
@@ -72,8 +74,8 @@
 					
 					// init and show modal
 					$this.modal({
-						backdrop: 'static',
-						keyboard: true,
+						backdrop: options.backdrop,
+						keyboard: options.keyboard,
 						show: true
 					});
 					break;

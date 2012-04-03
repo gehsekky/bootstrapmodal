@@ -12,3 +12,4 @@ options:
 * primaryButtonText: <string> text of primary dialog button. default = ''.
 * primaryButtonClick: <function> primary dialog button click handler. default = null.
 * disableFooter: <bool> enable/disable footer. default = false.
+* keyboard: <bool> whether or not esc closes dialog. default = true.
